@@ -162,7 +162,7 @@ handle.Touched:connect(damage)
 local Button = Tab:CreateButton({
    Name = "Chat Bypasser",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SkireScripts/Ouxie/main/Projects/simplebypass.lua"))()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/43344be6f77eb5f05721fc371e4047c6.lua"))()
    end,
 })
 
